@@ -1,0 +1,89 @@
+.container {
+  background-color: white;
+  color: #ee8b72;
+  border-radius: 10px;
+  height: 310;
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10%;
+  padding-bottom: 7%;
+  padding-left: 10%;
+  padding-right: 15%;
+  font-weight: 900;
+  font-size: 22px;
+
+  .long-term {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: medium;
+
+    .year-1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border-left: 2px solid #ee8b72;
+      padding-left: 15px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-weight: 900;
+      font-size: 18px;
+
+      .year-1-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+      }
+
+      .year-1-goals {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: #4b5853;
+        padding-top: 7px;
+        width: 200px;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+
+    .year-5 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border-left: 2px solid #ee8b72;
+      padding-left: 15px;
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 18px;
+
+      .year-5-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .year-5-goals {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: #4b5853;
+        padding-top: 7px;
+        width: 200px;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+
+    .pen-icon {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-left: 190px;
+    }
+  }
+}

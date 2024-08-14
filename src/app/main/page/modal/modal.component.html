@@ -1,0 +1,29 @@
+<div class="modal">
+  <div class="title">Long-Term Goals</div>
+  <div class="header">Plan your future</div>
+
+  <form>
+    <div class="one-year">1 year</div>
+    <input
+      [(ngModel)]="this.longtermgoal.oneYear"
+      name="oneYear"
+      class="one-year-input"
+    />
+
+    <div class="five-year">5 year</div>
+    <input
+      [(ngModel)]="this.longtermgoal.fiveYear"
+      name="fiveYear"
+      class="five-year-input"
+    />
+  </form>
+
+  <!-- save button -->
+  <button
+    (click)="this.data.UpdateGoals(this.longtermgoal)"
+    class="save"
+  ></button>
+
+  <!-- exit button -->
+  <button (click)="closeModal()" class="exit"></button>
+</div>

@@ -1,0 +1,148 @@
+:host {
+  display: block;
+  .modal {
+    // title (Long Term Goals)
+    .title {
+      position: absolute;
+      // left: 5%;
+      top: 25%;
+
+      font-family: 'Oxygen';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+
+      color: #ee8b72;
+    }
+
+    // header (Plan your future)
+    .header {
+      position: absolute;
+      // left: 5%;
+      top: 32%;
+
+      font-family: 'Oxygen';
+      font-style: normal;
+      font-weight: 650;
+      font-size: 20px;
+      line-height: 28px;
+
+      color: #ee8b72;
+    }
+
+    /* 1 year label */
+    .one-year {
+      position: relative;
+      font-family: 'Oxygen';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 25px;
+      color: #ee8b72;
+      margin-bottom: 5px; /* Space between label and input */
+      margin-top: 100px;
+    }
+
+    /* 1 year input */
+    .one-year-input {
+      position: relative;
+      right: 1%;
+      width: 100%; /* Make it fit the modal width */
+      height: 30px;
+      font-family: 'Oxygen';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      text-decoration: underline;
+      color: #4b5853;
+      margin-bottom: 20px; /* Space between input and next label */
+
+      border: none; /* Remove border */
+      outline: none; /* Remove outline */
+      background: transparent; /* Remove background */
+      padding: 5px; /* Add padding if needed for spacing inside the input */
+    }
+
+    /* 5 year label */
+    .five-year {
+      position: relative;
+      font-family: 'Oxygen';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 25px;
+      color: #ee8b72;
+      margin-bottom: 5px; /* Space between label and input */
+    }
+
+    /* 5 year input */
+    .five-year-input {
+      position: relative;
+      right: 1%;
+      width: 100%; /* Make it fit the modal width */
+      height: 30px;
+      font-family: 'Oxygen';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      text-decoration: underline;
+      color: #4b5853;
+      margin-bottom: 20px; /* Optional space below the last input */
+
+      border: none; /* Remove border */
+      outline: none; /* Remove outline */
+      background: transparent; /* Remove background */
+      padding: 5px; /* Add padding if needed for spacing inside the input */
+    }
+
+    /* save button */
+    .save {
+      background-image: url('assets/save-button.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100px 100px;
+      height: 40px;
+      cursor: pointer;
+
+      border: none; /* Remove the border */
+      background-color: transparent; /* Ensure the background is transparent */
+      padding: 0; /* Reset any padding */
+      outline: none; /* Remove the default outline (if any) */
+
+      position: absolute; /* Position relative to the modal */
+      bottom: 125px;
+      right: 20px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 120px;
+      font-weight: 500;
+      font-size: 25px;
+      color: #4b5853;
+    }
+
+    /* exit button */
+    .exit {
+      background-image: url('assets/exit-button.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 50px 50px;
+      height: 25px; /* Adjusted to match background-size */
+      width: 25px; /* Set width to match background-size */
+      cursor: pointer;
+
+      border: none;
+      position: absolute; /* Position the button absolutely within the modal */
+      top: 130px; /* Adjust the vertical position */
+      right: 32px; /* Position it in the top right corner */
+
+      background-color: transparent;
+    }
+  }
+}

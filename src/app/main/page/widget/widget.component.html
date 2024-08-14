@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="long-term">
+    Long-term Goals
+    <div class="year-1">
+      <div class="year-1-header">
+        1 year
+        <div class="year-1-goals">{{ longTermGoal.oneYear }}</div>
+      </div>
+    </div>
+    <div class="year-5">
+      <div class="year-5-header">
+        5 year
+        <div class="year-5-goals">{{ longTermGoal.fiveYear }}</div>
+      </div>
+
+      <!-- Edit Button / Pencil Icon -->
+      <img
+        class="pen-icon"
+        src="/assets/edit.svg"
+        width="26"
+        height="26"
+        (click)="edit()"
+      />
+    </div>
+  </div>
+</div>
